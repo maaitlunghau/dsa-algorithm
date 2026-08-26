@@ -1,0 +1,28 @@
+# Contains Duplicate
+
+**Difficulty:** Easy
+**Topics:** Array, Hash Table
+**Link:** https://neetcode.io/problems/duplicate-integer
+
+## Problem
+
+Given an integer array `nums`, return `true` if any value appears more than once in the array, otherwise return `false`.
+
+## Examples
+
+**Example 1:**
+```java
+Input: nums = [1, 2, 3, 3]
+Output: true
+```
+
+**Example 2:**
+```java
+Input: nums = [1, 2, 3, 4]
+Output: false
+```
+
+## Constraints
+
+- `0 <= nums.length <= 10^5`
+- `-10^9 <= nums[i] <= 10^9`
