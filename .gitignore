@@ -10,3 +10,6 @@ package-lock.json
 
 # Husky (internal runtime, auto-generated)
 .husky/
+
+# Editor (local-only overrides)
+.vscode/
