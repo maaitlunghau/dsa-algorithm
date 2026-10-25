@@ -1,29 +1,31 @@
-package leetcode.p01_two_sum;
+package p01_two_sum;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OnePassHashMap {
+public class TwoPassHashMap {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> indices = new HashMap<Integer, Integer>();
 
         for (int i = 0; i < nums.length; ++i) {
+            indices.put(nums[i], i);
+        }
+
+        for (int i = 0; i < nums.length; ++i) {
             int diff = target - nums[i];
 
-            if (indices.containsKey(diff)) {
+            if (indices.containsKey(diff) && indices.get(diff) != i) {
                 return new int[] { i, indices.get(diff) };
             }
-
-            indices.put(nums[i], i);
         }
 
         return new int[0];
     }
 
     static void main(String[] args) {
-        OnePassHashMap solution = new OnePassHashMap();
+        TwoPassHashMap solution = new TwoPassHashMap();
 
         int[] numsA = { 2, 7, 11, 15 };
         int targetA = 9;

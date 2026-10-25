@@ -1,4 +1,4 @@
-package leetcode.p242_valid_anagram;
+package p242_valid_anagram;
 
 import java.util.HashMap;
 import java.util.Map;

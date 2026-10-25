@@ -1,4 +1,4 @@
-package leetcode.p49_group_anagram;
+package p49_group_anagram;
 
 import java.util.ArrayList;
 import java.util.Arrays;

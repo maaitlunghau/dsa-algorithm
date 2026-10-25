@@ -1,4 +1,4 @@
-package leetcode.p20_valid_parentheses;
+package p20_valid_parentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
