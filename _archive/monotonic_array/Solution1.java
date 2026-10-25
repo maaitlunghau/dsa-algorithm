@@ -1,3 +1,5 @@
+package _archive.monotonic_array;
+
 public class Solution1 {
     public boolean isMonotonic(int[] nums) {
         boolean isAscending = nums[0] <= nums[nums.length - 1];

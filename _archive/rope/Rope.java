@@ -1,3 +1,5 @@
+package _archive.rope;
+
 public class Rope {
 
     public boolean isValid(int[] nums, int m, int k) {

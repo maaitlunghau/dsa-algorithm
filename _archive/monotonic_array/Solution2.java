@@ -1,3 +1,5 @@
+package _archive.monotonic_array;
+
 public class Solution2 {
     public boolean isMonotonic(int[] nums) {
         boolean isInc = true;

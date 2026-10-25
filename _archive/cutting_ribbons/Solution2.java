@@ -1,3 +1,5 @@
+package _archive.cutting_ribbons;
+
 public class Solution2 {
     public int dayThung(int n, int k, int[] nums, int l, int r) {
         int L = 0;

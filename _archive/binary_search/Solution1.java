@@ -1,3 +1,5 @@
+package _archive.binary_search;
+
 public class Solution1 {
 
     public int basicBinarySearch(int[] arr, int l, int r, int target) {

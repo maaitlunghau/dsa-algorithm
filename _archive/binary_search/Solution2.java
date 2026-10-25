@@ -1,3 +1,5 @@
+package _archive.binary_search;
+
 public class Solution2 {
     public int recursionBinarySearch(int[] arr, int l, int r, int target) {
         if (l >= r)
